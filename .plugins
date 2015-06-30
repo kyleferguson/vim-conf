@@ -1,0 +1,33 @@
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'bling/vim-airline'
+Plugin 'hhvm/vim-hack'
+Plugin 'cocopon/iceberg.vim'
+Plugin 'scrooloose/syntastic'
+
+call vundle#end()
+filetype plugin indent on
+
+" Airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'wombat'
+
+" CtrlP
+let g:ctrlp_clear_cache_on_exit = 0
+
+" NerdTree
+let NERDTreeMinimalUI=1
+let NERDTreeHighlightCursorline=0
+let NERDTreeIgnore = ['\.swp$', '\.swo$', '\.swl$', '\.swk$']
+let NERDTreeShowHidden=1
+
+" Syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_php_checkers=['php']
+let g:syntastic_html_checkers=['jshint']

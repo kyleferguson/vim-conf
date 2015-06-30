@@ -1,0 +1,26 @@
+" window switching
+nmap <leader>h <C-w>h
+nmap <leader>j <C-w>j
+nmap <leader>k <C-w>k
+nmap <leader>l <C-w>l
+
+" resizing windows
+if bufwinnr(1)
+    map ) :resize +5<cr>
+    map ( :resize -5<cr>
+    map + :vertical resize +5<cr>
+    map _ :vertical resize -5<cr>
+endif
+
+
+" close, save, and go to the previous file
+nnoremap <leader>q :bd<cr>
+nnoremap <leader>w :w!<cr>
+nnoremap <leader>b :b#<cr>
+
+" Nerdtree
+map <leader>n :NERDTreeToggle<cr>
+
+" CtrlP
+map <C-p> :CtrlP<cr>
+map <C-r> :CtrlPBufTag<cr>
