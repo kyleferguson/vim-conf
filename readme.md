@@ -42,7 +42,7 @@ You should be setup and ready to start using VIM.
 - `,s` save the current file
 - `,b` go to the previous buffer/window
 - `,n` toggle nerd tree
-- `,<direction>` switch windows toward the provided <direction>
+- `,<h,j,k,l>` switch windows toward the provided direction
 - `:H` clear search results
 - `ctrl-p` fuzzy file search
 - `ctrl-r` serach symbols/methods in file
