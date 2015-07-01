@@ -25,3 +25,6 @@ map <leader>n :NERDTreeToggle<cr>
 let g:ctrlp_map = '<c-o>'
 map <C-p> :FZF<cr>
 map <C-r> :CtrlPBufTag<cr>
+
+" Ultisnips
+command! Snips :UltiSnipsEdit<cr>
