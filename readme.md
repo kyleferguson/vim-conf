@@ -64,6 +64,7 @@ You should be setup and ready to start using VIM.
 - `,b` go to the previous buffer/window
 - `,n` toggle nerd tree
 - `,<h,j,k,l>` switch windows toward the provided direction
+- `,es` edit snippets for the current file type
 - `:H` clear search results
 - `ctrl-p` fuzzy file search
 - `ctrl-r` serach symbols/methods in file

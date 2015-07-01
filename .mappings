@@ -27,4 +27,4 @@ map <C-p> :FZF<cr>
 map <C-r> :CtrlPBufTag<cr>
 
 " Ultisnips
-command! Snips :UltiSnipsEdit<cr>
+nmap ,es :UltiSnipsEdit<cr>
