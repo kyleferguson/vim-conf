@@ -7,6 +7,7 @@ let g:mapleader = ","
 set laststatus=2
 set t_Co=256
 set rtp+=~/.fzf
+set backspace=indent,eol,start " allow backspacing over everything in insert mode
 
 " Appearance
 syntax on
