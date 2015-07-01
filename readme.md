@@ -30,7 +30,7 @@ Next, install the plugin manager that will manage all of the external vim plugin
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-Once the plugin manager is installed, install all external plugins by starting vim and running `:BundleInstall`. *You can ignore any warnings vim outputs during startup about missing plugins/themes.*
+Next, we need to install all 3rd party plugins. Start `vim`, then run `:BundleInstall`. *You can ignore any warnings vim outputs during startup about missing plugins/themes.*
 
 Close vim and install the fuzzy finder exectuable, which will allow us to fuzzy search files within VIM. *FZF can be used outside of VIM as well, for more information see [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)*
 
