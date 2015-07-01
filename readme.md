@@ -18,6 +18,12 @@ git clone https://github.com/kyleferguson/vim-conf ~/.vim
 ```
 
 
+Create a file in your home directory called `~/.vimrc`. You will use this file to customize anything in VIM. To start, put
+
+```
+source ~/.vim/.vimrc
+```
+
 Next, install the plugin manager that will manage all of the external vim plugins:
 
 ```
