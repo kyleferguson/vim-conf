@@ -11,6 +11,13 @@ $ vim --version
 VIM - Vi IMproved 7.4
 ```
 
+Clone this repository into `~/.vim`
+
+```
+git clone https://github.com/kyleferguson/vim-conf ~/.vim
+```
+
+
 Next, install the plugin manager that will manage all of the external vim plugins:
 
 ```
@@ -19,7 +26,15 @@ $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 Once the plugin manager is installed, install all external plugins by starting vim and running `:BundleInstall`. *You can ignore any warnings vim outputs during startup about missing plugins/themes.*
 
-Close vim and install ctags which powers the file finder and method search.
+Close vim and install the fuzzy finder exectuable, which will allow us to fuzzy search files within VIM. *FZF can be used outside of VIM as well, for more information see [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)*
+
+```
+$ ~/.vim/bundle/fzf/install
+```
+
+*You will either want to close your terminal and restart, or source your .bashrc etc. after install*
+
+Finally, if you would like to be able to fuzzy search for methods/symbols within files, install ctags
 
 **OSX**
 
