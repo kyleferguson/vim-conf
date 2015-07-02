@@ -22,8 +22,7 @@ nnoremap <leader>b :b#<cr>
 map <leader>n :NERDTreeToggle<cr>
 
 " CtrlP
-let g:ctrlp_map = '<c-o>'
-map <C-p> :FZF<cr>
+map <C-o> :FZF<cr>
 map <C-r> :CtrlPBufTag<cr>
 
 " Ultisnips

@@ -40,6 +40,20 @@ $ ~/.vim/bundle/fzf/install
 
 *You will either want to close your terminal and restart, or source your .bashrc etc. after install*
 
+In order to speed up the process of finding files for functions like grep, ctrlp, etc. it is best to install `ag` as the file finder. *See [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) for more info.*
+
+**OSX**
+
+```
+$ brew install the_silver_searcher
+```
+
+**Ubuntu**
+
+```
+$ apt-get install silversearcher-ag
+```
+
 Finally, if you would like to be able to fuzzy search for methods/symbols within files, install ctags
 
 **OSX**
@@ -66,5 +80,6 @@ You should be setup and ready to start using VIM.
 - `,<h,j,k,l>` switch windows toward the provided direction
 - `,es` edit snippets for the current file type
 - `:H` clear search results
-- `ctrl-p` fuzzy file search
+- `ctrl-o` search the entire directory, every file
+- `ctrl-p` fuzzy file search project (uses .gitignore to exclude directories etc.)
 - `ctrl-r` serach symbols/methods in file
