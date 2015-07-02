@@ -12,6 +12,7 @@ Plugin 'junegunn/fzf'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'SirVer/ultisnips'
 Plugin 'tpope/vim-fugitive'
+Plugin 'bluemilldigital/vim-finder'
 
 call vundle#end()
 filetype plugin indent on
