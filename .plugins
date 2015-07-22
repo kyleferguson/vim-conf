@@ -13,6 +13,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'SirVer/ultisnips'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bluemilldigital/vim-finder'
+Plugin 'tpope/vim-commentary'
 
 call vundle#end()
 filetype plugin indent on

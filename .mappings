@@ -27,3 +27,6 @@ map <C-r> :CtrlPBufTag<cr>
 
 " Ultisnips
 nmap ,es :UltiSnipsEdit<cr>
+
+" Commentary
+map ,c :Commentary<cr>

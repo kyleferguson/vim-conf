@@ -2,6 +2,7 @@ set nocompatible
 source ~/.vim/.plugins
 
 " Settings
+set nowrap
 let mapleader = ","
 let g:mapleader = ","
 set laststatus=2
