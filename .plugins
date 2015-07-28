@@ -9,11 +9,13 @@ Plugin 'bling/vim-airline'
 Plugin 'hhvm/vim-hack'
 Plugin 'scrooloose/syntastic'
 Plugin 'junegunn/fzf'
+Plugin 'chriskempson/base16-vim'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'SirVer/ultisnips'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bluemilldigital/vim-finder'
 Plugin 'tpope/vim-commentary'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on

@@ -13,7 +13,7 @@ set backspace=indent,eol,start " allow backspacing over everything in insert mod
 " Appearance
 syntax on
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme base16-ocean
 set number
 set numberwidth=4
 
