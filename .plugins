@@ -16,6 +16,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'bluemilldigital/vim-finder'
 Plugin 'tpope/vim-commentary'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'fatih/vim-go'
+Plugin 'terryma/vim-multiple-cursors'
 
 call vundle#end()
 filetype plugin indent on
